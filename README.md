@@ -28,3 +28,19 @@ This is the **backend** of the eCommerce application, responsible for managing p
 1. Clone the repository:
    ```bash
    git clone <backend-repo-url>
+
+2.Navigate to the project directory:
+ ```bash
+ cd ecommerce-backend
+3.Install dependencies:
+ ```bash
+npm install
+ 4.Set up the
+.env file with the following variables:
+```env
+ PORT=5000
+ MONGO_URI
+JWT_SECRET
+5.Start the server:
+ ```bash
+ npm start
